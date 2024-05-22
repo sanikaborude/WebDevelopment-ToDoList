@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: calc(33.33% - 10px);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .completed button {
+    background-color: #ff6347;
+  }
+  
+  #taskCount {
+    font-weight: bold;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  #taskCount::after {
+    content: " tasks";
+  }
+  
+  span:nth-child(2) {
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+  }
+  
